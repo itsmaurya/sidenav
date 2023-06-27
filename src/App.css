@@ -1,0 +1,56 @@
+.app{
+    display: flex;
+    flex-direction: row;
+}
+.side-area{
+    width: 15%;
+}
+.main-page{
+    display: flex;
+    align-self: left;
+    justify-self: left;
+    float: left;
+    width: 80%;
+}
+.sidebar{
+    
+    background-color:#002147;
+    color: #fff;
+   
+    height: 757px;
+    
+}
+.list-items{
+   display: flex;
+   flex-direction: column;
+   justify-content: baseline ;
+   align-items: baseline;
+   
+}
+.link-home, .link-about, .link-contact, .link-guide{
+    text-decoration: none;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+ul{
+    width: 100%;
+    margin-top: 5px;
+    padding: 15px;
+    padding-left: 70px;
+    padding-right: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+ul:hover{
+    background-color: #fff;
+    color:#002147;
+}
+
